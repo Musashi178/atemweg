@@ -3,6 +3,17 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 @import 'sass-bootstrap/lib/bootstrap';
 @import 'compass/css3/font-face';
 
+
+@font-face {
+    font-family: 'logo-font';
+    src: url('fonts/Exo-Regular.otf');
+}
+
+h1, h2, h3, h4 {
+    font-family: 'logo-font';
+    color: rgb(111,90,85);
+}
+
 .browsehappy {
     margin: 0.2em 0;
     background: #ccc;
@@ -10,10 +21,15 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
     padding: 0.2em 0;
 }
 
+.logotext {
+    font-family: 'logo-font';
+}
+
 /* Space out content a bit */
 body {
     padding-top: 20px;
     padding-bottom: 20px;
+   background-color: rgb(229,170,114);
 }
 
 
@@ -27,7 +43,7 @@ body {
 
 /* Custom page header */
 .header {
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;  
 }
 
 /* Make the masthead heading the same height as the navigation */
@@ -36,6 +52,10 @@ body {
     margin-bottom: 0;
     line-height: 40px;
     padding-bottom: 19px;
+}
+
+.navbar-header {
+    background-color: rgb(111,90,85); 
 }
 
 /* Custom page footer */
@@ -54,6 +74,8 @@ body {
     background-color: #ffffff;
     text-align: center;
     border-bottom: 1px solid #e5e5e5;
+//background-color: rgb(111,90,85);
+
 }
 
 .jumbotron .btn {
@@ -91,4 +113,12 @@ body {
     .jumbotron {
         border-bottom: 0;
     }
+}
+
+.navbar-toggle {
+    border-width: 0px;
+}
+
+a {
+    color: rgb(111,90,85);
 }
