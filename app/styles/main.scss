@@ -1,18 +1,39 @@
 $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 
-@import 'sass-bootstrap/lib/bootstrap';
 @import 'compass/css3/font-face';
-
 
 @font-face {
     font-family: 'logo-font';
     src: url('fonts/Exo-Regular.otf');
 }
 
-h1, h2, h3, h4 {
-    font-family: 'logo-font';
-    color: rgb(111,90,85);
-}
+/* logo colors */
+$logo-primary-color: rgb(111,90,85);
+$logo-secondary-color: rgb(229,170,114);
+$logo-bg-color: #fdfdfd;
+
+/* Twitter bootstrap parameters */
+$link-color: $logo-primary-color;
+$body-bg: $logo-secondary-color;
+$font-size-base: 14px;
+$headings-font-family: 'logo-font';
+$headings-color : $logo-primary-color;
+
+$btn-default-color: $logo-bg-color;
+$btn-default-bg: $logo-primary-color;
+$btn-default-border: $logo-primary-color;
+
+$navbar-default-color: $logo-bg-color;
+$navbar-default-bg: $logo-primary-color;
+$navbar-default-border: $logo-primary-color;
+
+$jumbotron-bg: $logo-bg-color;
+
+$navbar-inverse-color: $logo-bg-color;
+$navbar-inverse-bg: $logo-primary-color;
+$navbar-inverse-link-color: $logo-bg-color;
+
+@import 'sass-bootstrap/lib/bootstrap';
 
 .browsehappy {
     margin: 0.2em 0;
@@ -21,16 +42,17 @@ h1, h2, h3, h4 {
     padding: 0.2em 0;
 }
 
-.logotext {
-    font-family: 'logo-font';
-}
-
 /* Space out content a bit */
 body {
-    padding-top: 20px;
     padding-bottom: 20px;
-   background-color: rgb(229,170,114);
+
+        @media screen and (max-width: 768px) {
+                padding-top: 20px;
+        }
+
+        background-image:url('../images/hintergrund.jpg');
 }
+
 
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -43,7 +65,7 @@ body {
 
 /* Custom page header */
 .header {
-    border-bottom: 1px solid #e5e5e5;  
+    border-bottom: 1px solid #e5e5e5;
 }
 
 /* Make the masthead heading the same height as the navigation */
@@ -52,10 +74,6 @@ body {
     margin-bottom: 0;
     line-height: 40px;
     padding-bottom: 19px;
-}
-
-.navbar-header {
-    background-color: rgb(111,90,85); 
 }
 
 /* Custom page footer */
@@ -71,11 +89,8 @@ body {
 
 /* Main marketing message and sign up button */
 .jumbotron {
-    background-color: #fdfdfd;
     text-align: center;
     border-bottom: 1px solid #e5e5e5;
-//background-color: rgb(111,90,85);
-
 }
 
 .jumbotron .btn {
@@ -119,6 +134,6 @@ body {
     border-width: 0px;
 }
 
-a {
-    color: rgb(111,90,85);
+.logotext {
+    font-family: 'logo-font';
 }
