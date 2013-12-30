@@ -4,7 +4,7 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 
 @font-face {
     font-family: 'logo-font';
-    src: url('fonts/Exo-Regular.otf');
+    src: url('/styles/fonts/Exo-Regular.otf');
 }
 
 /* logo colors */
@@ -50,7 +50,7 @@ body {
                 padding-top: 20px;
         }
 
-        background-image:url('../images/hintergrund.jpg');
+        background-image:url('/images/hintergrund.jpg');
 }
 
 
