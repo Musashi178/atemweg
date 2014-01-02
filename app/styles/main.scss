@@ -33,6 +33,10 @@ $navbar-inverse-color: $logo-bg-color;
 $navbar-inverse-bg: $logo-primary-color;
 $navbar-inverse-link-color: $logo-bg-color;
 
+$carousel-indicator-border-color: $logo-secondary-color;
+$carousel-indicator-active-bg: $logo-secondary-color;
+$carousel-control-color: $logo-secondary-color;
+
 @import 'sass-bootstrap/lib/bootstrap';
 
 .browsehappy {
@@ -50,10 +54,9 @@ body {
                 padding-top: 20px;
         }
 
-        background-image:url('/images/hintergrund.jpg');
+    background-image:url('/images/hintergrund.jpg');
+    background-size:cover;
 }
-
-
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
@@ -136,4 +139,20 @@ body {
 
 .logotext {
     font-family: 'logo-font';
+}
+
+.text-right {
+    text-align: right;
+}
+
+.side-column {
+    p {
+    text-align: justify;
+}
+
+.modal-body {
+    img {
+        // width:100%
+    }
+}
 }
