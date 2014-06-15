@@ -1,0 +1,339 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bord",
+				"borderEdges"
+			],
+			[
+				"com",
+				"computeVertexNormals"
+			],
+			[
+				"cap",
+				"capInnerGeometry"
+			],
+			[
+				"inner",
+				"innerFaces"
+			],
+			[
+				"clon",
+				"clonedGeometry"
+			],
+			[
+				"clo",
+				"clonedGeometry"
+			],
+			[
+				"face",
+				"facesToCopy"
+			],
+			[
+				"src",
+				"srcGeometry"
+			],
+			[
+				"faces",
+				"facesToCopy"
+			],
+			[
+				"_",
+				"_geometryHelpers_"
+			],
+			[
+				"vert",
+				"vertexId"
+			],
+			[
+				"p",
+				"push"
+			],
+			[
+				"target",
+				"targetVerts"
+			],
+			[
+				"targ",
+				"targetGeometry"
+			],
+			[
+				"Vecto",
+				"Vector3"
+			],
+			[
+				"to",
+				"toBe"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"Vector",
+				"Vector2"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"Prett",
+				"HTMLPrettify"
+			],
+			[
+				"Inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 453.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/marco/Development/webcad/app/scripts/services/geometryHelpers.js",
+		"/Users/marco/Development/webcad/app/scripts/services/topology.js",
+		"/Users/marco/Development/webcad/app/views/main.html",
+		"/Users/marco/Development/webcad/app/scripts/controllers/main.js",
+		"/Users/marco/Development/webcad/test/spec/services/geometryHelpers_tests.js",
+		"/Users/marco/Development/webcad/app/styles/main.scss",
+		"/Users/marco/Development/webcad/app/components/sass-bootstrap/Gemfile",
+		"/Users/marco/Development/webcad/Gruntfile.js",
+		"/Users/marco/Development/webcad/app/scripts/services/meshHelpers.js",
+		"/Users/marco/Development/webcad/app/index.html",
+		"/Users/marco/Development/webcad/test/spec/services/meshHelpers_tests.js",
+		"/Users/marco/Development/webcad/.jsbeautifyrc",
+		"/Users/marco/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/Users/marco/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/Users/marco/Development/webcad/test/spec/services/linesweep.js",
+		"/Users/marco/Development/webcad/app/scripts/services/linesweep.js",
+		"/Users/marco/Development/webcad/app/components/es5-shim/LICENSE",
+		"/Users/marco/Development/webcad/app/scripts/directives/hkopenfilebutton.js",
+		"/Users/marco/Development/webcad/test/spec/directives/hkopenfilebutton.js",
+		"/Users/marco/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/marco/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/marco/Development/webcad/app/scripts/directives/hkrendercanvas.js",
+		"/Users/marco/Development/webcad/app/scripts/services/stlLoader.js",
+		"/Users/marco/Development/webcad/app/components/es5-shim/tests/helpers/h-kill.js",
+		"/Users/marco/Development/webcad/.gitattributes",
+		"/Users/marco/Development/webcad/.gitignore",
+		"/Users/marco/Development/webcad/.jshintrc",
+		"/Users/marco/Development/webcad/.travis.yml",
+		"/Users/marco/Development/webcad/.editorconfig",
+		"/Users/marco/Development/webcad/.bowerrc",
+		"/Users/marco/Development/webcad/app/components/sass-bootstrap/examples/starter-template/starter-template.css",
+		"/Users/marco/Development/webcad/app/models/stumpf.stl"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"THREE",
+			"console",
+			"            ",
+			"capMesh",
+			"Geometry",
+			"isVisited",
+			"deepCloneFaces",
+			"geometryHelpers",
+			"meshHelpers",
+			"f",
+			"Meshhelpers",
+			"execute",
+			"Line2",
+			"Line",
+			"doPlaneSweep",
+			"_lineSweep_",
+			"lineSweep",
+			"webcadApp",
+			"Linesweep",
+			"bower-inst"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "bower.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"top",
+				"app/scripts/services/topology.js"
+			],
+			[
+				"geom",
+				"app/scripts/services/geometryHelpers.js"
+			],
+			[
+				"main",
+				"app/scripts/controllers/main.js"
+			],
+			[
+				"inde",
+				"app/index.html"
+			],
+			[
+				"me",
+				"test/spec/services/meshHelpers_tests.js"
+			],
+			[
+				"mesh",
+				"app/scripts/services/meshHelpers.js"
+			],
+			[
+				"m",
+				"app/views/main.html"
+			],
+			[
+				"topo",
+				"app/scripts/services/topology.js"
+			],
+			[
+				"line",
+				"test/spec/services/linesweep.js"
+			],
+			[
+				"hk",
+				"test/spec/directives/hkopenfilebutton.js"
+			],
+			[
+				"stllo",
+				"app/scripts/services/stlLoader.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 190.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
