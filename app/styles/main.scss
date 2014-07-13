@@ -1,158 +1,157 @@
-$icon-font-path: "/bower_components/sass-bootstrap/fonts/";
-
+$icon-font-path:"/bower_components/sass-bootstrap/fonts/";
 @import 'compass/css3/font-face';
-
 @font-face {
-    font-family: 'logo-font';
-    src: url('/styles/fonts/Exo-Regular.otf');
+  font-family: 'logo-font';
+  src: url('/styles/fonts/Exo-Regular.otf');
 }
-
 /* logo colors */
-$logo-primary-color: rgb(111,90,85);
-$logo-secondary-color: rgb(229,170,114);
-$logo-bg-color: #fdfdfd;
+
+$logo-primary-color:rgb(111, 90, 85);
+ $logo-secondary-color:rgb(229, 170, 114);
+ $logo-bg-color:#fdfdfd;
 
 /* Twitter bootstrap parameters */
-$link-color: $logo-primary-color;
-$body-bg: $logo-secondary-color;
-$font-size-base: 14px;
-$headings-font-family: 'logo-font';
-$headings-color : $logo-primary-color;
 
-$btn-default-color: $logo-bg-color;
-$btn-default-bg: $logo-primary-color;
-$btn-default-border: $logo-primary-color;
-
-$navbar-default-color: $logo-bg-color;
-$navbar-default-bg: $logo-primary-color;
-$navbar-default-border: $logo-primary-color;
-
-$jumbotron-bg: $logo-bg-color;
-
-$navbar-inverse-color: $logo-bg-color;
-$navbar-inverse-bg: $logo-primary-color;
-$navbar-inverse-link-color: $logo-bg-color;
-
-$carousel-indicator-border-color: $logo-secondary-color;
-$carousel-indicator-active-bg: $logo-secondary-color;
-$carousel-control-color: $logo-secondary-color;
-
+$link-color:$logo-primary-color;
+ $body-bg:$logo-secondary-color;
+ $font-size-base:14px;
+ $headings-font-family:'logo-font';
+ $headings-color:$logo-primary-color;
+ $btn-default-color:$logo-bg-color;
+ $btn-default-bg:$logo-primary-color;
+ $btn-default-border:$logo-primary-color;
+ $navbar-default-color:$logo-bg-color;
+ $navbar-default-bg:$logo-primary-color;
+ $navbar-default-border:$logo-primary-color;
+ $jumbotron-bg:$logo-bg-color;
+ $navbar-inverse-color:$logo-bg-color;
+ $navbar-inverse-bg:$logo-primary-color;
+ $navbar-inverse-link-color:$logo-bg-color;
+ $carousel-indicator-border-color:$logo-secondary-color;
+ $carousel-indicator-active-bg:$logo-secondary-color;
+ $carousel-control-color:$logo-secondary-color;
 @import 'sass-bootstrap/lib/bootstrap';
-
-.browsehappy {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+ .browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
 }
-
 /* Space out content a bit */
+
 body {
-    padding-bottom: 20px;
-
-        @media screen and (max-width: 768px) {
-                padding-top: 20px;
-        }
-
-    background-image:url('/images/hintergrund.jpg');
-    background-size:cover;
+  padding-bottom: 20px;
+  @media screen and (max-width: 768px) {
+    padding-top: 20px;
+  }
+  background-image:url('/images/hintergrund.jpg');
+  background-size:cover;
 }
-
 /* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
-    padding-left: 15px;
-    padding-right: 15px;
-}
 
+.header, .marketing, .footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
 /* Custom page header */
+
 .header {
-    border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
 }
-
 /* Make the masthead heading the same height as the navigation */
+
 .header h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: 40px;
-    padding-bottom: 19px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
 }
-
 /* Custom page footer */
+
 .footer {
-    padding-top: 19px;
-    color: #777;
-    border-top: 1px solid #e5e5e5;
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
 }
-
 .container-narrow > hr {
-    margin: 30px 0;
+  margin: 30px 0;
 }
-
 /* Main marketing message and sign up button */
+
 .jumbotron {
-    text-align: center;
-    border-bottom: 1px solid #e5e5e5;
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 0px;
 }
-
 .jumbotron .btn {
-    font-size: 21px;
-    padding: 14px 24px;
+  font-size: 21px;
+  padding: 14px 24px;
 }
-
+.content {
+  margin-top: 30px;
+}
 /* Supporting marketing content */
+
 .marketing {
-    margin: 40px 0;
+  margin: 40px 0;
 }
-
 .marketing p + h4 {
-    margin-top: 28px;
+  margin-top: 28px;
 }
+#announcement {
+  background: $logo-secondary-color;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: $logo-primary-color;
+  small {
+      font-size: 12px;
+  }
+  h1 {
+    color: $logo-bg-color;
 
+    small {
+      color: $logo-bg-color;
+      font-size: 24px;
+    }
+  }
+}
 /* Responsive: Portrait tablets and up */
+
 @media screen and (min-width: 768px) {
-    .container {
-        max-width: 1000px;
-    }
-
-    /* Remove the padding we set earlier */
-    .header,
-    .marketing,
-    .footer {
-        padding-left: 0;
-        padding-right: 0;
-    }
-    /* Space out the masthead */
-    .header {
-        margin-bottom: 30px;
-    }
-    /* Remove the bottom border on the jumbotron for visual effect */
-    .jumbotron {
-        border-bottom: 0;
-    }
+  .container {
+    max-width: 1000px;
+  }
+  /* Remove the padding we set earlier */
+  .header, .marketing, .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
 }
-
 .navbar-toggle {
-    border-width: 0px;
+  border-width: 0px;
 }
-
 .logotext {
-    font-family: 'logo-font';
+  font-family: 'logo-font';
 }
-
 .text-right {
-    text-align: right;
+  text-align: right;
 }
-
 .side-column {
-    p {
+  p {
     text-align: justify;
-}
-
-.modal-body {
+  }
+  .modal-body {
     img {
-        // width:100%
+      // width:100%
+
     }
-}
+  }
 }
